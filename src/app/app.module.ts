@@ -5,10 +5,11 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BlogpostComponent } from './blogpost/blogpost.component';
-import { BlogpostsComponent } from './blogposts/blogposts.component';
-import { BlogcommentComponent } from './blogcomment/blogcomment.component';
-import { BlogcommentsComponent } from './blogcomments/blogcomments.component';
+import { BlogpostComponent } from './Components/blogpost/blogpost.component';
+import { BlogpostsComponent } from './Components/blogposts/blogposts.component';
+import { BlogcommentComponent } from './Components/blogcomment/blogcomment.component';
+import { BlogcommentsComponent } from './Components/blogcomments/blogcomments.component';
+import { NavbarComponent } from './Components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BlogcommentsComponent } from './blogcomments/blogcomments.component';
     BlogpostComponent,
     BlogpostsComponent,
     BlogcommentComponent,
-    BlogcommentsComponent
+    BlogcommentsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
